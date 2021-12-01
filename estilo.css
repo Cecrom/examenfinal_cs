@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+body {
+    background-color: silver;
+}
+
+/* INICIO */
+
+#cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: "Estonia";
+}
+
+#cabecera button {
+    font-size: 2rem;
+    font-weight: bold;
+    align-self: center;
+    font-family: "Estonia";
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+#cabecera button:hover {
+    font-size: 2rem;
+    font-weight: bold;
+    align-self: center;
+    font-family: "Estonia";
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.8rem;
+
+}
+
+#cabecera h1 {
+    align-self: center;
+}
+
+#logo {
+    width: 10rem;
+}
+
+#presentacion {
+    text-align: center;
+    font-family: "Estonia";
+    font-size: 2rem;
+
+}
+
+#divElegirJuego table {
+    margin: 0 auto;
+    font-size: larger;
+}
+
+#divElegirJuego table td {
+    padding: 1rem;
+}
+
+#divElegirJuego table button {
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+
+#divElegirJuego table button:hover {
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    background-color: black;
+    color: white;
+}
+
+#divImagenInicio {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+}
+
+#divImagenInicio img {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 50%;
+    object-fit: contain;
+}
+
+/* ADMINISTRACIÓN */
+
+#login {
+    margin: 0 auto;
+}
+
+#login h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Estonia";
+}
+
+#login p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Estonia";
+}
+
+#login form {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Estonia";
+}
+
+#login input[type="submit"] {
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+#botones {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#botones button {
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+#divTablaGrupos {
+    margin-top: 1rem;
+}
+
+#gruposAdmin {
+    margin: 0 auto;
+}
+
+#gruposAdmin th, td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#botonBorrar {
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+/* INICIO */
+
+#introducirUsuario {
+    text-align: center;
+}
+
+#formGrupo table {
+    margin: 0 auto;
+}
+
+#formGrupo table th {
+    font-family: "estonia";
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+#formGrupo table td {
+    font-family: "estonia";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#formGrupo table input {
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+/* JUGAR */
+
+#navJugar {
+    font-family: "estonia";
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#general {
+    font-size: 2.5rem;
+    font-family: "estonia";
+    font-weight: bolder;
+    text-align: justify;
+}
+
+#general table {
+    margin: 0 auto;
+}
+
+#general table button {
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+#avance form input[type="submit"] {
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+#final {
+    display: grid;
+}
+
+.imagenRunas {
+    width: 25%;
+}
+
+/* RANKING */
+
+.ranking {
+    text-align: center;
+    font-family: "estonia";
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#divTablaRank {
+    text-align: center;
+}
+
+#tablRanking {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
